@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prince of Peace Homecare | Professional Home Nursing Services</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .hero-gradient {
+            background: linear-gradient(
+                135deg,
+                #0f172a 0%,
+                #1e3a8a 50%,
+                #0284c7 100%
+            );
+        }
+
+        .care-image {
+            transition: transform .5s ease, filter .5s ease;
+            filter: saturate(.95) contrast(1.03);
+        }
+
+        .care-image:hover {
+            transform: scale(1.025);
+            filter: saturate(1.05) contrast(1.04);
+        }
+
+        .image-frame {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-frame::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background: linear-gradient(
+                180deg,
+                rgba(15,23,42,0.02),
+                rgba(15,23,42,0.16)
+            );
+        }
+
+        .service-card {
+            transition: all .3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(15, 23, 42, 0.10);
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 font-sans text-slate-800 antialiased">
+
+<!-- =====================================================
+     TOP CONTACT BAR
+===================================================== -->
+
+<div class="bg-slate-900 text-white text-xs md:text-sm py-2.5 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+
+        <div class="flex items-center gap-5">
+
+            <a href="tel:+254712688088"
+               class="hover:text-green-400 flex items-center gap-2">
+                <i class="fa-solid fa-phone text-green-500"></i>
+                0712 688 088
+            </a>
+
+            <a href="https://wa.me/254712688088"
+               target="_blank"
+               class="hover:text-green-400 flex items-center gap-2">
+                <i class="fa-brands fa-whatsapp text-green-500"></i>
+                WhatsApp
+            </a>
+
+        </div>
+
+        <div class="flex items-center gap-4">
+
+            <a href="https://www.facebook.com/share/1Dbm2m6cxL/"
+               target="_blank"
+               aria-label="Facebook"
+               class="hover:text-blue-400">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="https://vm.tiktok.com/ZS9BLQC3SYJDg-Yq3iK/"
+               target="_blank"
+               aria-label="TikTok"
+               class="hover:text-pink-400">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="bg-white shadow-sm sticky top-0 z-50">
+
+    <div class="max-w-7xl mx-auto px-4 py-3.5
+                flex justify-between items-center">
+
+        <a href="#" class="flex items-center gap-3">
+
+            <div class="bg-blue-900 text-white p-2.5 rounded-lg shadow">
+                <i class="fa-solid fa-heart-pulse
+                          text-2xl text-green-400"></i>
+            </div>
+
+            <div>
+                <span class="text-xl md:text-2xl font-black
+                             text-blue-900 tracking-tight block">
+                    PRINCE OF PEACE
+                </span>
+
+                <span class="text-xs font-semibold text-green-600
+                             tracking-widest uppercase">
+                    Homecare Services
+                </span>
+            </div>
+
+        </a>
+
+
+        <!-- Desktop Navigation -->
+
+        <nav class="hidden md:flex gap-8 font-semibold text-slate-700">
+
+            <a href="#about" class="hover:text-blue-900">
+                About Us
+            </a>
+
+            <a href="#services" class="hover:text-blue-900">
+                Our Services
+            </a>
+
+            <a href="#contact" class="hover:text-blue-900">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- WhatsApp Button -->
+
+        <a href="https://wa.me/254712688088"
+           target="_blank"
+           class="bg-green-600 hover:bg-green-700
+                  text-white px-5 py-2.5 rounded-full
+                  font-bold shadow flex items-center gap-2 text-sm">
+
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            Book Care
+
+        </a>
+
+    </div>
+</header>
+
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+
+<section class="hero-gradient text-white py-16 lg:py-20 px-4">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2
+                gap-12 items-center">
+
+
+        <!-- Hero Text -->
+
+        <div class="space-y-6">
+
+            <span class="bg-green-500/20
+                         border border-green-400/40
+                         text-green-300 text-xs font-bold
+                         px-3.5 py-1.5 rounded-full
+                         uppercase tracking-wider inline-block">
+
+                We Come To Your Home!
+
+            </span>
+
+
+            <h1 class="text-4xl lg:text-5xl
+                       font-extrabold leading-tight">
+
+                Professional Home Nursing
+                & Medical Care
+
+            </h1>
+
+
+            <p class="text-slate-200 text-base lg:text-lg
+                      leading-relaxed">
+
+                Compassionate, skilled medical care delivered
+                directly to your doorstep by Prince of Peace
+                Homecare. Dedicated to health, dignity, and
+                comfortable recovery at home.
+
+            </p>
+
+
+            <div class="flex flex-wrap gap-4 pt-2">
+
+                <a href="tel:+254712688088"
+                   class="bg-white text-blue-950
+                          hover:bg-slate-100
+                          font-bold px-6 py-3.5 rounded-lg
+                          shadow-lg flex items-center gap-2">
+
+                    <i class="fa-solid fa-phone text-green-600"></i>
+
+                    Call 0712 688 088
+
+                </a>
+
+
+                <a href="https://wa.me/254712688088"
+                   target="_blank"
+                   class="bg-green-600 hover:bg-green-700
+                          text-white font-bold
+                          px-6 py-3.5 rounded-lg
+                          shadow-lg flex items-center gap-2">
+
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+
+                    WhatsApp Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Hero Image -->
+
+        <div class="relative flex justify-center">
+
+            <div class="relative w-full max-w-md
+                        bg-white/10 p-3 rounded-2xl
+                        backdrop-blur-sm
+                        border border-white/20
+                        shadow-2xl">
+
+                <div class="image-frame rounded-xl">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=85"
+                        alt="Professional home nursing caregiver providing compassionate care"
+                        class="care-image rounded-xl w-full h-96
+                               object-cover object-center
+                               shadow-inner bg-slate-800"
+                        loading="eager"
+                        decoding="async"
+                    >
+
+                </div>
+
+
+                <!-- Image Information Badge -->
+
+                <div class="absolute -bottom-4
+                            right-4 left-4 sm:left-auto
+                            bg-slate-900 text-white p-4
+                            rounded-xl shadow-xl
+                            border-l-4 border-green-500
+                            flex items-center gap-3">
+
+                    <i class="fa-solid fa-user-nurse
+                              text-2xl text-green-400"></i>
+
+                    <div>
+
+                        <p class="font-bold text-sm">
+                            Qualified Nursing Care
+                        </p>
+
+                        <p class="text-xs text-slate-300">
+                            Flexible 12 & 24 Hour Shifts
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =====================================================
+     KEY CARE OPTIONS
+===================================================== -->
+
+<section class="bg-white py-12 border-b">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+
+            <div class="bg-slate-50 p-5 rounded-xl
+                        border border-slate-200
+                        text-center">
+
+                <i class="fa-solid fa-clock
+                          text-3xl text-blue-900"></i>
+
+                <h3 class="font-bold mt-2">
+                    24 & 12 Hours Care
+                </h3>
+
+                <p class="text-xs text-slate-500 mt-1">
+                    Flexible hours to meet patient needs
+                </p>
+
+            </div>
+
+
+            <div class="bg-slate-50 p-5 rounded-xl
+                        border border-slate-200
+                        text-center">
+
+                <i class="fa-solid fa-user-doctor
+                          text-3xl text-blue-900"></i>
+
+                <h3 class="font-bold mt-2">
+                    Qualified Nursing Care
+                </h3>
+
+                <p class="text-xs text-slate-500 mt-1">
+                    Skilled clinical healthcare services
+                </p>
+
+            </div>
+
+
+            <div class="bg-slate-50 p-5 rounded-xl
+                        border border-slate-200
+                        text-center">
+
+                <i class="fa-solid fa-hand-holding-heart
+                          text-3xl text-blue-900"></i>
+
+                <h3 class="font-bold mt-2">
+                    Dedicated Caregiving
+                </h3>
+
+                <p class="text-xs text-slate-500 mt-1">
+                    Assistance with daily living activities
+                </p>
+
+            </div>
+
+
+            <div class="bg-slate-50 p-5 rounded-xl
+                        border border-slate-200
+                        text-center">
+
+                <i class="fa-solid fa-person-walking
+                          text-3xl text-blue-900"></i>
+
+                <h3 class="font-bold mt-2">
+                    Physiotherapy
+                </h3>
+
+                <p class="text-xs text-slate-500 mt-1">
+                    In-home physical rehabilitation
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT SECTION
+===================================================== -->
+
+<section id="about" class="py-16 px-4 bg-slate-50">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2
+                gap-12 items-center">
+
+
+        <!-- About Image -->
+
+        <div class="image-frame rounded-2xl">
+
+            <img
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=85"
+                alt="Healthcare professional supporting an elderly patient at home"
+                class="care-image rounded-2xl shadow-lg
+                       border border-slate-200
+                       w-full h-80 object-cover
+                       object-center bg-slate-200"
+                loading="lazy"
+                decoding="async"
+            >
+
+        </div>
+
+
+        <!-- About Text -->
+
+        <div class="space-y-4">
+
+            <span class="text-green-600 font-bold
+                         text-sm uppercase tracking-wider">
+
+                About Our Care
+
+            </span>
+
+
+            <h2 class="text-3xl font-extrabold
+                       text-blue-900">
+
+                Compassionate Healthcare
+                at Your Doorstep
+
+            </h2>
+
+
+            <p class="text-slate-600 leading-relaxed">
+
+                At <strong>Prince of Peace Homecare</strong>,
+                we specialize in offering patient-centered
+                nursing care right in the comfort of your home.
+
+                Whether recovering from surgery, managing a
+                chronic condition, or seeking elderly support,
+                our medical team ensures maximum health safety,
+                peace, and dignity.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section id="services" class="py-16 px-4 bg-white">
+
+    <div class="max-w-7xl mx-auto">
+
+
+        <div class="text-center max-w-2xl mx-auto mb-12">
+
+            <span class="text-green-600 font-bold
+                         text-sm uppercase tracking-wider">
+
+                What We Provide
+
+            </span>
+
+
+            <h2 class="text-3xl md:text-4xl
+                       font-extrabold text-blue-900 mt-2">
+
+                Services We Offer
+
+            </h2>
+
+
+            <p class="text-slate-600 mt-3">
+
+                Complete home nursing solutions customized
+                for your family's needs.
+
+            </p>
+
+        </div>
+
+
+        <!-- Service Cards -->
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+
+            <!-- SERVICE -->
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-hospital-user
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Post Hospitalisation Recovery
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Support and monitoring during recovery
+                    after hospital discharge.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-person-walking
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Stroke Recovery
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Assistance with rehabilitation,
+                    mobility and daily activities.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-brain
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Dementia / Alzheimer's Care
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Compassionate support and supervision
+                    for patients and families.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-heart-pulse
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Parkinson's Care
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Personalized assistance for daily
+                    living and mobility needs.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-hands-holding-circle
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Cancer & Palliative Care
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Compassionate home-based support
+                    focused on comfort and dignity.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-notes-medical
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Chronic Disease Management
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Ongoing home support and monitoring
+                    for chronic health conditions.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-pills
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Medication Administration
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Assistance with prescribed medication
+                    administration and routines.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-bandage
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Wound Care
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Professional home-based wound care
+                    according to the care plan.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-syringe
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Catheter Care
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Catheter support, hygiene and monitoring
+                    as required.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-utensils
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Feeding Tube Management
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Home support for patients requiring
+                    feeding tube care.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-user-nurse
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Post-Surgical Care
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Home nursing support following surgical
+                    procedures.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-lungs
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Oxygen Therapy Management
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Support with prescribed oxygen therapy
+                    and equipment routines.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-shower
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Bathing & Grooming
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Respectful assistance with personal
+                    hygiene and grooming.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-wheelchair
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Mobility Support
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Assistance with safe movement and
+                    everyday mobility.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-bed
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Turning & Positioning
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Assistance with appropriate positioning
+                    and comfort.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-heart
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Companionship
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Friendly presence and supportive
+                    companionship at home.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-hand-holding-medical
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Pain Management
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    Home support focused on comfort and
+                    prescribed pain-management plans.
+                </p>
+
+            </div>
+
+
+            <div class="service-card p-5 border
+                        border-slate-200 rounded-xl
+                        bg-slate-50">
+
+                <i class="fa-solid fa-lungs
+                          text-green-600 text-2xl"></i>
+
+                <h3 class="font-bold mt-3">
+                    Chest Physiotherapy
+                </h3>
+
+                <p class="text-sm text-slate-500 mt-2">
+                    In-home respiratory physiotherapy
+                    support where prescribed.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT SECTION
+===================================================== -->
+
+<section id="contact" class="bg-slate-100 py-14 px-4">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+        <span class="text-green-600 font-bold text-sm
+                     uppercase tracking-wider">
+
+            Contact Us
+
+        </span>
+
+
+        <h2 class="text-3xl md:text-4xl
+                   font-extrabold text-blue-900 mt-2">
+
+            We Are Ready To Care For You
+
+        </h2>
+
+
+        <p class="text-slate-600 mt-4">
+
+            Reach out to Prince of Peace Homecare
+            for professional home nursing and caregiving support.
+
+        </p>
+
+
+        <div class="flex flex-wrap justify-center
+                    gap-4 mt-8">
+
+
+            <a href="tel:+254712688088"
+               class="bg-blue-900 text-white
+                      px-6 py-3 rounded-full
+                      font-bold shadow
+                      hover:bg-blue-800
+                      flex items-center gap-2">
+
+                <i class="fa-solid fa-phone text-green-400"></i>
+
+                Call 0712 688 088
+
+            </a>
+
+
+            <a href="https://wa.me/254712688088"
+               target="_blank"
+               class="bg-green-600 text-white
+                      px-6 py-3 rounded-full
+                      font-bold shadow
+                      hover:bg-green-700
+                      flex items-center gap-2">
+
+                <i class="fa-brands fa-whatsapp text-xl"></i>
+
+                WhatsApp
+
+            </a>
+
+
+            <a href="https://www.facebook.com/share/1Dbm2m6cxL/"
+               target="_blank"
+               class="bg-blue-600 text-white
+                      px-6 py-3 rounded-full
+                      font-bold shadow
+                      hover:bg-blue-700
+                      flex items-center gap-2">
+
+                <i class="fa-brands fa-facebook-f"></i>
+
+                Facebook
+
+            </a>
+
+
+            <a href="https://vm.tiktok.com/ZS9BLQC3SYJDg-Yq3iK/"
+               target="_blank"
+               class="bg-black text-white
+                      px-6 py-3 rounded-full
+                      font-bold shadow
+                      hover:bg-slate-800
+                      flex items-center gap-2">
+
+                <i class="fa-brands fa-tiktok text-pink-500"></i>
+
+                TikTok
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="bg-slate-950 text-slate-400 py-7">
+
+    <div class="max-w-7xl mx-auto px-4 text-center">
+
+        <div class="flex justify-center items-center
+                    gap-2 mb-3">
+
+            <i class="fa-solid fa-heart-pulse
+                      text-green-500"></i>
+
+            <span class="text-white font-bold">
+                PRINCE OF PEACE HOMECARE
+            </span>
+
+        </div>
+
+        <p class="text-sm">
+            Professional Home Nursing & Caregiving Services
+        </p>
+
+        <p class="text-xs mt-3">
+            © 2026 Prince of Peace Homecare.
+            All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     FLOATING WHATSAPP BUTTON
+===================================================== -->
+
+<a href="https://wa.me/254712688088"
+   target="_blank"
+   aria-label="Chat with Prince of Peace Homecare on WhatsApp"
+   class="fixed bottom-5 right-5 z-50
+          bg-green-600 hover:bg-green-700
+          text-white w-14 h-14
+          rounded-full shadow-2xl
+          flex items-center justify-center
+          text-2xl">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+</body>
+</html>
